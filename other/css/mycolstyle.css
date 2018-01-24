@@ -1,0 +1,12 @@
+/*<!--Author: Athanasios Thomaidis-->*/
+.mycolstyle{
+    background-color: lightyellow; !important;
+    border-style: solid; !important;
+    border-color: #FFDB58; !important;
+    padding: 2px; !important;
+}
+
+.myh2style{
+    background-color: #FFDB58; !important;
+    padding-left: 6px; !important;
+}

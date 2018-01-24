@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="./images/7sins-logo.png" type="image/png">
+        <!-- Title Syntax: PageName - Magic & Illusions !-->
+        <title>Home - Magic &amp; Illusions</title>
+        <!-- Page Font Family: Google Font, Spectral. Available at: https://fonts.google.com/specimen/Spectral !-->
+        <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+        <!-- Main CSS file !-->
+        <link type="text/css" rel="stylesheet" href="../other/css/layout.css">
+        <!-- Bootstrap CSS !-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <!-- Main Responsive CSS file !-->
+        <link type="text/css" rel="stylesheet" href="../other/css/responsive.css">
+
+        <style>
+            #main
+            {
+                width:95%;
+            }
+        </style>
+    </head>
+    <body>
+        
+            <!-- Information -->
+            <div class="container-fluid" id="main">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h1 >Personal details</h1>
+                    </div>
+                </div>            
+                <div class="row align-items-center">
+                    <div class="col-md-12">                                            
+                        <ul>
+                            <li>Name: Charatsidis Thomas</li>
+                            <li>Date of Birth: 20/09/1993</li>
+                            <li>Studies: BSc in Political Science and Social Administration from Democritus Univercity of Thrace.</li>   
+                        </ul>
+                        <p>In the creation of the website i used the following HTML and CSS commands</p>
+                        <ul>
+                            <li>"h1,h6". In order to define header size.</li>
+                            <li>"img". In order to display an image which you link with src</li>
+                            <li>"li". Creates a line.</li>
+                            <li>"ol". For an ordered list.</li>
+                            <li>"ul". Unordered list.</li>
+                            <li>"name". Set an individual name to an object.</li>
+                            <li>"target=". Sets a target iframe or place where the link you apply will open.</li>
+                            <li>"usemap=". The content you applied it to uses the map of that name</li>
+                            <li>"shape=polygon". Defines a shape in a map tag.</li>
+                            <li>"map". Defines a map on an image if you provide the coordinates where you can link content.</li>
+                            <li>"iframe". Either for a video or a small box where you can store visual content with links.</li>
+                            <li>"coords". Defines the map coordinates on an image.</li>
+                            <li>"div". Shows something as a block.</li>
+                            <li>"a href". Adds attribute href which is used to create links.</li>
+                            <li>"alt=". In order to display a text if the photograph is missing.</li>
+                            <li>"frameborder=". To set the frameborder pixels of a video. </li>
+                            <li>"allowfullscreen". To allow a video to open up full screen size through my website.</li>
+                            <li>CSS "opacity". To change opacity of an image</li>
+                            <li>CSS "fonts". To change the fonts of a paragraph.</li>
+                            <li>CSS "position". To define the position of content.</li>
+                            <li>CSS "height,widht". To define height and width of content.</li>
+
+                        </ul>
+                        <p> The following javascript was used to resize the iframes 
+
+                            "function resizeIframe(obj) 
+                            {
+                            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+                            }"
+
+                            .It works paired with  onload="resizeIframe(this);" in the iframe you wish to resize.
+                        </p>
+                        <p>The BOOTSTRAP specific commands used were the following :</p>
+                        <ul>
+                            <li>class="rounded-circle img-fluid" . Which would make images look rounded like a circle</li>
+                            <li>class="row align-items-center" and "text-center". The first one centers the contents compared to the container height and the second centers compared to weight. </li>
+                            <li>class="row justify-content-center". Puts the content in the middle of the container.</li>
+                            <li>class="container-fluid" . It makes the contents resposnsive in different sizes of screens.</li>
+                            <li>class="col-md-x" . Creates bootstrap columns that divide the width in order to separate content.</li>
+                            <li>class="img-fluid". makes an image responsive to the container and changes its size appropriately for each screen size.</li>
+                            <li>class="embed-responsive embed-responsive-4by3" . Makes the video with class="embed-responsive-item" responsive to screen size if its inside it. </li>
+                            <li>class="navbar-". Defines various elements of a navigation bar.</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-12"> 
+                        <p>I am interested in CS because i believe its the science of the future , A.I will soon replace humans in most of the jobs and the "digital" "cyber" aspects of humanity seem to develop at a very fast pace. I enjoy the problem solving aspect as well as the mathematical logic behind programming. My future goal is to program  A.I that can tell or write stories and create realistic scenarios by using social values and ethical reasoning. I believe its use is immense in the entertainment industry and will become an essential part of future VR industry as well. I do hope to combine the social aspects of Political and Social science into the said A.I. </p>
+                        <p>Hobbies: I usualy spend a lot of time reading books preferably genres such as psychology , sci-fi , fantasy , history. Also, I spend time trainning in the gym and I play online games mostly Blizzard's Heroes of the Storm and World of Warcraft. Lastly i sometimes the board game GO on the internet.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+            
+        
+        <!-- Footer End !-->
+        <div id="overlay"></div>
+        <div id="image-popup"><a href="#" target="_blank"><img src="" alt="" /></a><span></span></div>
+        <!-- Bootstrap JS !-->
+        <script type="text/javascript" src="../other/js/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <!-- Pop Image Javascript file !-->
+        <script type="text/javascript" src="../other/js/pop-image.js"></script>
+    </body>
+</html>

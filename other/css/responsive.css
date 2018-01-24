@@ -1,0 +1,116 @@
+@media screen and (min-width: 992px) and (max-width: 1222px) {
+	.header {
+		min-height: 70px;
+		max-height: 150px;
+		height: auto;
+	}
+
+	.header .nav .nav-link {
+		font-size: 15.9px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	.header {
+		min-height: 70px;
+		max-height: max-content;
+		max-height: -moz-max-content;
+		height: auto;
+	}
+
+	.header .nav .nav-link {
+		text-align: center;
+	}
+
+	.header .dropdown-menu.show {
+		width: -moz-max-content;
+		margin-left: 50%;
+		transform: translate(-50%, 0);
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+
+	.header .nav-item.dropdown.show .dropdown-toggle {
+		top: 20px;
+	}
+
+	.header .navbar-toggler {
+		position: absolute;
+		left: 50%;
+		top: 16px;
+	}
+
+	#main-menu.show,
+	#main-menu.collapsing {
+		margin-left: 50px;
+		text-align: center
+	}
+
+	figure.video {
+		min-width: initial;
+		max-width: 100%;
+	}
+
+	figure.video iframe {
+		max-width: 90%;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	.header .nav:not(.expanded) .nav-item {
+		display: none;
+	}
+
+	#search-bar > * {
+		display: none
+	}
+
+	.main {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.main h1,
+	.main h2,
+	.main h3,
+	.main h4 {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	figure.image {
+		min-width: initial;
+		max-width: 100%;
+		display: block;
+		float: none;
+	}
+
+	figure.image > a {
+		display: inline;
+	}
+
+	figure.video {
+		float: none;
+		display: block;
+	}
+
+	figure.image image {
+		min-width: initial;
+		max-width: 90%;
+		max-height: 10%;
+		margin: auto;
+	}
+
+	figure figcaption {
+		text-align: justify;
+	}
+}

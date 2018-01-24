@@ -1,0 +1,30 @@
+/*<!--Author: Athanasios Thomaidis-->*/
+
+.mybtn-left{
+    background-color: black; !important;
+    border-color: black; !important;
+    border-bottom-right-radius: 0; !important;
+    border-top-right-radius: 0px; !important;
+    color: gold;
+}
+.mybtn-right{
+    background-color: black; !important;
+    border-color: black;  !important;
+    border-bottom-left-radius: 0; !important;
+    border-top-left-radius: 0px;!important;
+    color: gold;
+}
+.mybtn-inbetween{
+    background-color: black; !important;
+    border-color: black; !important;
+    border-radius: 0px;  !important;
+    color: gold;
+}
+.iframestyle{
+    border-top-width: 0;
+    border-radius: 30px; !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color: #FFE940; !important;
+        
+}
